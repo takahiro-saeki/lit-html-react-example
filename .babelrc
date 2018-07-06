@@ -1,0 +1,23 @@
+{
+  "presets": [
+    ["env", {
+      "useBuiltIns": true,
+      "targets": {
+        "browsers": [
+          "ie >= 11"
+        ]
+      },
+      "modules": false,
+      "loose": true
+    }]
+  ],
+  "ignore": [
+    "node_modules"
+  ],
+  "plugins": [
+    "transform-function-bind",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-custom-element-classes"
+  ]
+}

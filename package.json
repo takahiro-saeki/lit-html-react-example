@@ -1,0 +1,24 @@
+{
+  "name": "lit-html-and-lit-element-example",
+  "version": "1.0.0",
+  "author": "takahiro-saeki <hiroooon69@gmail.com>",
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2",
+    "babel-polyfill": "^6.26.0",
+    "lit-html": "^0.10.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/takahiro-saeki/lit-html-and-lit-element-example.git",
+  "scripts": {
+    "start:lit-element": "parcel watch ./lit-element-example/index.html",
+    "start:lit-html": "parcel ./lit-html-example/index.html"
+  }
+}
