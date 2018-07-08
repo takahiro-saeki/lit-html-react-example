@@ -20,7 +20,8 @@
   "main": "index.js",
   "repository": "https://github.com/takahiro-saeki/lit-html-and-lit-element-example.git",
   "scripts": {
-    "start:lit-element": "parcel ./lit-element-example/index.html",
-    "start:lit-html": "parcel ./lit-html-example/index.html"
+    "start:lit-element": "yarn clean && parcel ./lit-element-example/index.html",
+    "start:lit-html": "yarn clean && parcel ./lit-html-example/index.html",
+    "clean": "rm -rf ./.cache ./dist"
   }
 }
