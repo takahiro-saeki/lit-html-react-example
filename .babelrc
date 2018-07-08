@@ -17,7 +17,6 @@
   "plugins": [
     "transform-function-bind",
     "transform-class-properties",
-    "transform-object-rest-spread",
-    "transform-custom-element-classes"
+    "transform-object-rest-spread"
   ]
 }
