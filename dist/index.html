@@ -2,29 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>lit-element example</title>
-  <meta name="description" content="lit-element-example">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>lit-html example</title>
+  <meta name="description" content="lit-html">
   <meta name="author" content="takahiro-saeki">
 </head>
 <body>
-  <script src="/e18db1b9d0b95832a323774678847a16.js"></script>
-    <script type="module">
-      import {LitElement, html} from '@polymer/lit-element';
-
-      class MyElement extends LitElement {
-
-        static get properties() { return { mood: String }}
-
-        _render({mood}) {
-          return html`<style> .mood { color: green; } </style>
-            Web Components are <span class="mood">${mood}</span>!`;
-        }
-
-      }
-
-      customElements.define('my-element', MyElement);
-    </script>
-
-    <my-element mood="happy"></my-element>
+  <div id="app"></div>
+  <script src="/src.5b27c97b.js"></script>
 </body>
 </html>
